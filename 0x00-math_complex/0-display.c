@@ -8,7 +8,7 @@
  **/
 void display_complex_number(complex c)
 {
-        if (c.re > 0)
+        if (c.re != 0)
         {
                 if (c.im == 0)
                         printf("%.0f\n", c.re);
